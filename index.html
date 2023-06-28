@@ -14,19 +14,32 @@
       <h1>
         Architecture is COOL!
       </h1>
-     <input class="search-bar" type="text" placeholder="search">
-     <button type="button"> Click Me</button>
+        <script>
+          let welcome = 'Hello, welcome to my site!';
+          let place = prompt('What is your favorite building?');
+          let response = 'Seattle has some cool Architecture';
+
+          if (place === 'Space Needle'){
+            response = 'The Space Needle is one of my favorites'
+          } else {
+            response = 'Thats a cool building, I like your choice in Architecture!'
+          }
+          document.write(response)
+        </script>
   </header>
 </div>
-    <main>
+<main>
   <div>
     <div class="img-div">
       <div>
         <div style="display: grid; grid-template-columns: 150px px;">
           <div style="background-color: lightblue;">
             <img class="Architecture-stuff" src="https://cdn.britannica.com/36/162636-050-932C5D49/Colosseum-Rome-Italy.jpg">
-              <p>
-              The Roman colosseum 
+            <p>
+              <script>
+                let output = prompt('what is the famous place Gladiators faught in rome?')
+                document.write(output);
+              </script>
             </p>
           </div>
           </div>
@@ -34,7 +47,10 @@
               <div style="background-color: lightpink;">
                 <img class="Architecture-stuff" src="https://cdn.britannica.com/37/135437-050-A12461CC/Burj-Khalifa-world-Sheikh-Khalifah-ibn-Zayid-2010.jpg">
                 <p>
-                Burj Khalifa
+                  <script>
+                    let poutput = prompt('What is the tallest building in Dubai?')
+                    document.write(poutput);
+                  </script>
               </p>
             </div>
           </div>
@@ -42,15 +58,17 @@
               <div style="background-color: lightgreen;">
               <img class="Architecture-stuff" src="https://www.travelandleisure.com/thmb/SPUPzO88ZXq6P4Sm4mC5Xuinoik=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/eiffel-tower-paris-france-EIFFEL0217-6ccc3553e98946f18c893018d5b42bde.jpg">
                 <p>
-                The Eiffel Tower
+                  <script>
+                    let coutput = prompt('what is a famous building in France?')
+                    document.write(coutput);
+                  </script>
               </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-    </main>
+</main>
     <footer>
         <P>
           Phone Number (206)-555-9876
