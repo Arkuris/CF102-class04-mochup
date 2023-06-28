@@ -1,0 +1,43 @@
+header{
+  text-align: center;
+  background-image: url(images/istockphoto-474073402-612x612.jpg);
+  background-repeat:no-repeat;
+  color: rgb(255, 127, 244);
+  width: 100%;
+  padding: 20px;
+  margin: 20px;
+}
+.header-div{
+  
+}
+body {
+  background-image: url(images/istockphoto-1156963574-612x612.jpg) ;
+  width: 100%;
+  height: 100%;
+}
+
+.spaceneedle{
+  height: 100px;
+}
+.search-bar{
+  margin-bottom: 25px;
+}
+.Architecture-stuff {
+  width: 150px;
+}
+svg {
+ width: 50px;
+}
+
+.img-div{
+  display: block;
+}
+
+div{
+  display: flex;
+  width: 100%;
+
+}
+
+
+

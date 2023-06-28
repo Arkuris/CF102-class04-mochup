@@ -3,62 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>
+    Document
+  </title>
+  <link rel="stylesheet" href="style.css">  
 </head>
-<style>
-  .spaceneedle{
-    height: 100px;
-  }
-  .search-bar{
-    margin-bottom: 25px;
-  }
-  .Architecture-stuff {
-    width: 150px;
-  }
-  svg {
-   width: 50px;
-  }
-</style>
-<body>    
+<body>
+  <div class="header-div">
    <header>
-    <img class="spaceneedle" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Space_Needle_2011-07-04.jpg/800px-Space_Needle_2011-07-04.jpg">
       <h1>
         Architecture is COOL!
       </h1>
      <input class="search-bar" type="text" placeholder="search">
+     <button type="button"> Click Me</button>
   </header>
+</div>
     <main>
+  <div>
+    <div class="img-div">
       <div>
-        <div>
-          <img class="Architecture-stuff" src="https://cdn.britannica.com/36/162636-050-932C5D49/Colosseum-Rome-Italy.jpg">
-          <p>
-            The Roman colosseum 
-          </p>
-        </div>
-        <div>
-          <img class="Architecture-stuff" src="https://cdn.britannica.com/37/135437-050-A12461CC/Burj-Khalifa-world-Sheikh-Khalifah-ibn-Zayid-2010.jpg">
-          <p>
-            Burj Khalifa
-          </p>
-        </div>
-        <div>
-          <img class="Architecture-stuff" src="https://www.travelandleisure.com/thmb/SPUPzO88ZXq6P4Sm4mC5Xuinoik=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/eiffel-tower-paris-france-EIFFEL0217-6ccc3553e98946f18c893018d5b42bde.jpg">
-          <p>
-            The Eiffel Tower
-          </p>
+        <div style="display: grid; grid-template-columns: 150px px;">
+          <div style="background-color: lightblue;">
+            <img class="Architecture-stuff" src="https://cdn.britannica.com/36/162636-050-932C5D49/Colosseum-Rome-Italy.jpg">
+              <p>
+              The Roman colosseum 
+            </p>
+          </div>
+          </div>
+            <div style="display: grid; grid-template-columns: 150px px;">
+              <div style="background-color: lightpink;">
+                <img class="Architecture-stuff" src="https://cdn.britannica.com/37/135437-050-A12461CC/Burj-Khalifa-world-Sheikh-Khalifah-ibn-Zayid-2010.jpg">
+                <p>
+                Burj Khalifa
+              </p>
+            </div>
+          </div>
+            <div style="display: grid; grid-template-columns: 150px px;">
+              <div style="background-color: lightgreen;">
+              <img class="Architecture-stuff" src="https://www.travelandleisure.com/thmb/SPUPzO88ZXq6P4Sm4mC5Xuinoik=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/eiffel-tower-paris-france-EIFFEL0217-6ccc3553e98946f18c893018d5b42bde.jpg">
+                <p>
+                The Eiffel Tower
+              </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+
     </main>
     <footer>
-      <P>
-        Phone Number (206)-555-9876
-      </P>
-       <p>
-        Email: fakemail@fbi.gov
-      </p> 
-      <p>
-        Address: 1111 E notreal st. SN, Seattle MA. 76599
-      </p>
+        <P>
+          Phone Number (206)-555-9876
+        </P>
+        <p>
+          Email: fakemail@fbi.gov
+        </p> 
+        <p>
+          Address: 1111 E notreal st. SN, Seattle MA. 76599
+        </p>
       <i class="fa-brands fa-twitter" style="color: #4b6491;">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
       </i>
