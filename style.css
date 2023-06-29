@@ -33,6 +33,10 @@ body {
   height: 100%;
 }
 
+.space-img{
+  width: 100px;
+}
+
 .spaceneedle{
   height: 100px;
 }
