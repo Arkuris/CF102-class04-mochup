@@ -9,11 +9,17 @@
   <link rel="stylesheet" href="style.css">  
 </head>
 <body>
+  <script src="app.js">
+
+  </script>
   <div class="header-div">
    <header>
       <h1>
         Architecture is COOL!
       </h1>
+        <button class="introP" onclick="timebutton()">
+          Press for Current Time:
+        </button>
         <script>
           let welcome = 'Hello, welcome to my site!';
           let place = prompt('What is your favorite building?');
@@ -41,6 +47,13 @@
                 document.write(output);
               </script>
             </p>
+              <input type="The " id="userInput">
+                <button onclick="checkAnswer()">
+                  Check Answer
+                </button>
+              <p id="result">
+
+              </p>
           </div>
           </div>
             <div style="display: grid; grid-template-columns: 150px px;">

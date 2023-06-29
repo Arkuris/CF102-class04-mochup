@@ -2,13 +2,30 @@ header{
   text-align: center;
   background-image: url(images/istockphoto-474073402-612x612.jpg);
   background-repeat:no-repeat;
+  background-position: center;
   color: rgb(255, 255, 255);
   width: 100%;
   padding: 20px;
   margin: 20px;
 }
+h1 {
+text-align: center;
+color: deepskyblue;
+background-color: rgb(87, 87, 87);
+background-position: center;
+width: 200px;
+text-align: center;
+}
 .header-div{
   
+.introP {
+  background-color: aqua;
+  text-size-adjust:50px ;
+  padding: 10px;
+  color: grey;
+  text-align: center;
+  display: inline;
+}
 }
 body {
   background-image: url(images/istockphoto-1156963574-612x612.jpg) ;
